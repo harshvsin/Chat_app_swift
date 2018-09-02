@@ -12,6 +12,8 @@ class ChannelVC: UIViewController {
 
     @IBOutlet weak var loginBtn: UIButton!
     //we created this outlet cuz it need to be changed later
+    @IBAction func prepForUnwind(segue: UIStoryboardSegue){}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
